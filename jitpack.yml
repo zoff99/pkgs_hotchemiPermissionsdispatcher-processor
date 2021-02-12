@@ -1,0 +1,10 @@
+install:
+   - echo "installing ..."
+   - pwd
+   - id -a
+   - ls -al
+   - mkdir -p ~/.m2/repository/com/github/hotchemi/permissionsdispatcher-processor/3.2.0
+   - cp maven-metadata.xml ~/.m2/repository/com/github/hotchemi/permissionsdispatcher-processor/
+   - cp permissionsdispatcher-processor-3.2.0.jar ~/.m2/repository/com/github/hotchemi/permissionsdispatcher-processor/3.2.0/
+   - cp permissionsdispatcher-processor-3.2.0.pom ~/.m2/repository/com/github/hotchemi/permissionsdispatcher-processor/3.2.0/
+
